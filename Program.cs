@@ -18,6 +18,8 @@
             int days = (int)daysUntilChristmas.TotalDays;
 
             Console.WriteLine($"Days left until Christmas this year: {days} days");
+
+            Console.ReadKey();
         }
     }
 }
