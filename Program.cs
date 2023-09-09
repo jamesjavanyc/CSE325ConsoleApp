@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            string yourName = "James";
-            string yourLocation = "NY";
+            string name = "James";
+            string location = "NY";
 
-            Console.WriteLine($"My name is {yourName}, and I'm from {yourLocation}");
+            Console.WriteLine($"My name is {name}, and I'm from {location}");
 
             DateTime currentDate = DateTime.Now;
 
