@@ -11,7 +11,7 @@
 
             DateTime currentDate = DateTime.Now;
 
-            Console.WriteLine($"Today's date is {currentDate.ToString("M / d / yyyy")}");
+            Console.WriteLine($"Today's date is {currentDate.ToString("MM/dd/yyyy")}");
 
             DateTime christmasDate = new DateTime(currentDate.Year, 12, 25);
             TimeSpan daysUntilChristmas = christmasDate - currentDate;
